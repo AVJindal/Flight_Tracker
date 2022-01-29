@@ -1,5 +1,6 @@
 from api import fetcher
 
+
 def main_wrapper():
     print(f"This is the start of our Python Project. This function's name is {main_wrapper.__name__}")
     # code here
