@@ -13,7 +13,6 @@ def main_wrapper():
     # Stuff here - wrapper!
     # project structuring for modularity, maintainability, and separation of concerns.
     # 2. git pull
-    # 3. set . gitignore and a pull_template
 
     # set up a .gitignore and a .pull_template
     # 3. API example. Creating fetcher. from __init__. Create fetcher for states_accessor and tracks_accessor.
@@ -23,12 +22,12 @@ def main_wrapper():
     fetcher.states_accessor()
     # fetcher.tracks_accessor()
 
-    # 4. Finish API fetcher. Also add some data folders in gitignore. Like data_to_ignore (with sample example) Also
-    # utils example
+    #4. Finish API fetcher. Also add some data folders in gitignore. Like data_to_ignore (with sample example) Also utils example
 
-    # 5.fixed dataset
+    #5. Need to introduce fixed dataset (link). Adding data_ignore to env
     flight_list_fixed = aggregate.fixed_dataset()
 
+    #6.
     print("This is the end of our python project")
 
 
