@@ -1,10 +1,9 @@
-from api import utils
+from api import fetcher
 
 def main_wrapper():
     print(f"This is the start of our Python Project. This function's name is {main_wrapper.__name__}")
-
     # code here
-    utils.solid_example_1(example_param_2='r', example_param_2=5)
+    fetcher.states_accessor()
     print("This is the end of our Python Project.")
 
 
