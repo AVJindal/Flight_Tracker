@@ -12,7 +12,7 @@ def analyze(*, dataset: pd.DataFrame, airports_subset: list):
                 .agg(dict(callsign="count"))
                 # label the current chunk with the name of the airport
                 .rename(columns=dict(callsign=airport))
-            # iterate on all airports in the list hereabove
+            # iterate on all airports in the list here above
             for airport in sum(airports_subset, [])
         ),
         axis=1,
@@ -81,6 +81,7 @@ def visualize(data, airports_subset: list):
             )
         ]
     ).resolve_scale(color="independent")
+
 
     # Need to add something to visualize the figure explicitly (unlike Google Collab where it's easily viewable)
     altair_viewer.show(result)
