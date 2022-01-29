@@ -9,6 +9,7 @@ def main_wrapper():
     # Stuff here - wrapper!
     # project structuring for modularity, maintainability, and separation of concerns.
     # 2. git pull
+    # 3. set . gitignore and a pull_template
 
     print("This is the end of our python project")
 
